@@ -33,3 +33,15 @@
 ___
 2.   git ls-files -s
      -   명령은 훨씬 더 장막 뒤에 가려져 있는 명령으로 이를 실행하면 현재 Index가 어떤 상태인지를 확인할 수 있다   
+
+3.   브런치 생성 및 변경
+     
+     a.   git branch {branchName}
+        -       브랜치 만들
+        
+     b.   git checkout {branchName}
+        -       현재 디렉토리 브랜치 변경
+        -    git checkout -b {branchName}:생성과 체크아웃 동시에
+        -    git checkout -b {newBranch} parentBranch:
+                        
+                        부모 branch 밑에 newBranch 생성   
