@@ -114,7 +114,7 @@ b.   git checkout {branchName}
 ## 옵션 종류(해당 상태 전으로)
 ###  (--hard)[working directory 까지 모두 날림]
 >a.txt의 내용 수정: a->b
-### (--mixed) :add 전으로 되돌린다(unstaged)
+### (--mixed) :add 전으로 되돌린다(unstaging)
 >git add .
 ### (--soft) : commit 전으로 되돌린다
 >git commit
